@@ -1,0 +1,49 @@
+.header-main {
+  display: block;
+  margin-top: 5rem;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.header-main h1 {
+  color: #cd890c;
+  font-size: 2.3rem;
+  margin-bottom: 1rem;
+}
+
+.header-main .btn-pro {
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.header-main .btn-pro button {
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+  padding: 1rem;
+  transition: all 1s;
+}
+
+.header-main .btn-pro button:hover {
+  background-color: #ff4500;
+}
+
+.header-main .btn-pro .active {
+  background-color: #ac5e27;
+}
+
+@media screen and (min-width: 0px) {
+  .btn-pro {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .btn-pro {
+    flex-direction: row;
+  }
+}
